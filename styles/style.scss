@@ -158,12 +158,7 @@ nav {
 
     .container {
         display: flex;
-        justify-content: center;
-        gap: 3rem;   
-        border-radius: 2rem;
-        border: rgb(255, 255, 255) 0.1rem solid;
-        margin: 2rem auto;
-        padding: 1rem; 
+        flex-direction: column;
     }
 
     .article-container {
@@ -171,6 +166,10 @@ nav {
         flex-wrap: wrap;
         justify-content: center;
         gap: 3rem;
+        border-radius: 2rem;
+        border: rgb(255, 255, 255) 0.1rem solid;
+        margin: 2rem auto;
+        padding: 1rem; 
     }
 
     .checkmark {
@@ -197,6 +196,7 @@ nav {
         margin: 20px;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 5px;
         
         button {
